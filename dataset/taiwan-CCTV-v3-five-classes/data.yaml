@@ -1,0 +1,11 @@
+path: "C:/Users/LEO/Documents/ChatGPT/Pattern Recognnition Learning/datasets/taiwan-CCTV-v3-five-classes"
+train: train/images
+val: valid/images
+test: test/images
+nc: 5
+names:
+  0: person
+  1: car
+  2: motorcycle
+  3: bus
+  4: truck
