@@ -1,0 +1,43 @@
+{
+  "train": {
+    "images": 1593,
+    "labels": 1593,
+    "boxes": {
+      "car": 18937,
+      "motorcycle": 21026,
+      "truck": 1190,
+      "person": 582,
+      "bus": 1065
+    },
+    "removed_bicycle": 406,
+    "removed_zero_area": 10,
+    "empty_labels": 0
+  },
+  "valid": {
+    "images": 154,
+    "labels": 154,
+    "boxes": {
+      "motorcycle": 1674,
+      "car": 1443,
+      "bus": 113,
+      "truck": 86,
+      "person": 190
+    },
+    "removed_bicycle": 33,
+    "removed_zero_area": 4,
+    "empty_labels": 0
+  },
+  "test": {
+    "images": 77,
+    "labels": 77,
+    "boxes": {
+      "motorcycle": 982,
+      "car": 942,
+      "bus": 50,
+      "truck": 62
+    },
+    "removed_bicycle": 25,
+    "removed_zero_area": 0,
+    "empty_labels": 0
+  }
+}

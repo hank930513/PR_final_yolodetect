@@ -1,0 +1,6 @@
+Source: https://universe.roboflow.com/hsiang-idaw8/taiwan-cctv/dataset/3
+License: CC BY 4.0
+Bicycle annotations removed; images retained. Zero-area boxes removed.
+Classes: 0 person, 1 car, 2 motorcycle, 3 bus, 4 truck.
+Original splits retained. Test split has no person annotations; cannot evaluate person AP.
+Bicycles remain in images as non-target background. If moved, update path in data.yaml.
